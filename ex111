@@ -1,0 +1,8 @@
+Exercise 1-11. How would you test the word count program? What kinds of
+input are most likely to uncover bugs if there are any?
+
+	I would test the program by running it against the original wc.
+The files that are most likely to uncover bugs are large files with
+white space beeing used in different ways, like double blanks, tabs,
+blank lines, and repetend blank lines.
+
