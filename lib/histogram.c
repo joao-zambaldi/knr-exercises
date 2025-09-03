@@ -1,10 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define DEFAULT_TERM_WIDTH 72
-#define DEFAULT_VHIST_HEIGHT 10
-
-
 double arrmax(double* values, int count)
 {
 	double max;
@@ -65,11 +61,4 @@ void vhist(double* values, int count)
 
 	free(hs);
 }
-
-
-
-
-
-
-
 
